@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    <!-- 页面标题start -->
+    {% block title %}{{ title }}{% endblock %}
+    <!-- 页面标题end -->
+  </title>
+  <!-- 页面样式start -->
+  {% block styles %}{% endblock %}
+  <!-- 页面样式end -->
+</head>
+<body>
+    <!-- 页面内容start -->
+    {% block contents %}
+    {% endblock %}
+    <!-- 页面内容end -->
+    <!-- 页面脚本start -->
+    {% block scripts %}{% endblock %}
+    <!-- 页面脚本end -->
+</body>
+</html>

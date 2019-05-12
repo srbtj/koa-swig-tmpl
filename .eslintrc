@@ -1,0 +1,31 @@
+{
+  "ecmaFeatures": {
+    "modules": true,
+    "spread" : true,
+    "restParams" : true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "env": {
+    "browser": true,
+    "node" : true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules":{
+    "camelcase": 1,
+    "comma-dangle": 2,
+    "quotes": 0,
+    "no-console": "off",
+    "arrow-spacing": "off"
+  }
+}
