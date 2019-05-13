@@ -7,12 +7,15 @@
     "test": "",
     "dev": "",
     "build": "",
-    "client:dev": "",
-    "client:prod": "",
-    "server:dev": "",
-    "server:prod": ""
+    "client:dev": "scripty",
+    "client:prod": "scripty",
+    "server:start": "scripty",
+    "server:hint": "scripty",
+    "server:dev": "scripty",
+    "server:prod": "scripty"
   },
   "dependencies": {
+    "co": "^4.6.0",
     "koa": "^2.7.0",
     "koa-log4": "^2.3.2",
     "koa-router": "^7.4.0",
